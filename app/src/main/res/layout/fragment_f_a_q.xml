@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FAQFragment">
+    <TextView android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:text="@string/FAQ_heading"
+              android:textSize="20sp"
+              android:id="@+id/faq_heading"
+              android:textColor="@color/purple_500"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="8dp"
+    />
+    <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:id="@+id/faqList"
+            android:layout_below="@+id/faq_heading"
+            android:layout_marginTop="8dp"
+            android:padding="6dp"
+    />
+
+</RelativeLayout>

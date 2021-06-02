@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/navbar_menu">
+        <item
+                android:id="@+id/home_nav_item"
+                android:title="@string/home"
+                android:icon="@drawable/ic_baseline_home_24"
+                app:showAsAction="ifRoom" />
+        <item
+                android:id="@+id/multimedia_nav_item"
+                android:title="@string/multimedia"
+                android:icon="@drawable/ic_baseline_collections_24"
+                app:showAsAction="ifRoom" />
+        <item
+                android:id="@+id/appointment_nav_item" android:actionLayout="@layout/navbar"
+                android:title="@string/appointment"
+                android:icon="@drawable/ic_baseline_medication_24"
+                app:showAsAction="ifRoom" />
+        <item
+                android:id="@+id/statistics_nav_item"
+                android:title="@string/statistics"
+                android:icon="@drawable/ic_baseline_analytics_24"
+                app:showAsAction="ifRoom" />
+        <item
+                android:id="@+id/faq_nav_item"
+                android:title="@string/faq"
+                android:icon="@drawable/ic_baseline_question_answer_24"
+                app:showAsAction="ifRoom" />
+</menu>

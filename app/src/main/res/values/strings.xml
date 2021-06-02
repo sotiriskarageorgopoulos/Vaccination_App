@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">National Vaccination Agency</string>
+    <string name="home">Home</string>
+    <string name="multimedia">Videos/Images</string>
+    <string name="appointment">Vaccination Appointment</string>
+    <string name="statistics">Statistics</string>
+    <string name="faq">FAQ</string>
+    <string name="heading1_home">Information about the Organization</string>
+    <string name="text1_home">The purpose of the National Vaccination Organization is to protect and improve the health
+        and increase the life expectancy of the population. For this reason, the National Vaccination Agency assists
+        other public health services in protecting the population and addressing any threats to human health due to
+        infectious diseases through early detection, monitoring and evaluation of risks and through the submission of
+        proposals and proposals.The National Vaccination Agency develops and promotes actions aimed at promoting health,
+        and its main functions include epidemiological monitoring, risk assessment, scientific advice, and the provision
+        of epidemiological and statistical data to national, European and international authorities, among others.
+    </string>
+    <string name="heading1_gallery">Images</string>
+    <string name="heading2_gallery">Video about the pandemic</string>
+    <string name="play_video_btn">Play</string>
+    <string name="name_appointment_form">Name</string>
+    <string name="surname_appointment_form">Surname</string>
+    <string name="social_security_number_appointment_form">Social Security Number</string>
+    <string name="tel_appointment_form">Telephone Number</string>
+    <string name="email_appointment_form">Email</string>
+    <string name="date_appointment_form">Appointment Date</string>
+    <string name="time_appointment_form">Appointment Time</string>
+    <string name="appointment_heading">Vaccination Appointment</string>
+    <string name="btn_appointment_form">Request for appointment</string>
+    <string name="FAQ_heading">FAQs about vaccination</string>
+    <string name="complete_vaccination_appointment_text">Your appointment was arranged for:</string>
+    <string name="change_appointment_btn">Change</string>
+    <string name="cancel_appointment_btn">Cancel</string>
+    <string name="complete_vaccination_appointment_text_date">Date:</string>
+    <string name="complete_vaccination_appointment_text_time">Time:</string>
+    <string name="delete_appointment">Your appointment was deleted successfully...</string>
+    <string name="arranged_appointment">Appointment was arranged...</string>
+    <string name="heading_change_appointment">Change appointment</string>
+    <string name="text_change_appointment">Choose a new date and time for your appointment:</string>
+    <string name="table_date_text">Date</string>
+    <string name="table_total_vaccines_text">Vaccines</string>
+    <string name="table_total_dose1_text">Vaccines a-dose</string>
+    <string name="table_total_dose2_text">Vaccines b-dose</string>
+    <string name="table_total_vaccines_until_today_text">Total Vaccines Until Today</string>
+    <string name="statistics_heading">Vaccination Statistics</string>
+    <string name="statistics_text">Select time interval:</string>
+    <string name="statistics_start_date">Date From</string>
+    <string name="statistics_end_date">Date Until</string>
+    <string name="statistics_btn_submit">Submit</string>
+    <string name="date_table_heading">Dates</string>
+    <string name="vaccines_table_heading">Vaccines</string>
+    <string name="dose1_table_heading">Vaccines\na-dose</string>
+    <string name="dose2_table_heading">Vaccines\nb-dose</string>
+    <string name="total_vaccines_until_last_day_table_heading">Total\nvaccines\nuntil\ntoday</string>
+</resources>

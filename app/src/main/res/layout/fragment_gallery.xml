@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gallery_layout"
+            tools:context=".GalleryFragment"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginBottom="8dp"
+                  android:textSize="20dp"
+                  android:textColor="@color/purple_500"
+                  android:text="@string/heading1_gallery"
+                  android:id="@+id/heading1_gallery"
+        />
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rec_view_images"
+                android:padding="8dp"
+                android:layout_below="@+id/heading1_gallery"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="8dp"
+                  android:layout_below="@+id/rec_view_images"
+                  android:textSize="20dp"
+                  android:text="@string/heading2_gallery"
+                  android:textColor="@color/purple_500"
+                  android:id="@+id/heading2_gallery"
+        />
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rec_view_videos"
+                android:padding="8dp"
+                android:layout_below="@+id/heading2_gallery"
+        />
+    </RelativeLayout>
+</ScrollView>
